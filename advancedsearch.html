@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navgbar-advsearch">
+            <h2 id="head-text">Advanced Search</h2>
+            <div id="header-links">
+                <a href="imagesearch.html">Image Search</a>
+                <a href="index.html">Search</a>
+            </div>
+        </div>
+        <!-- End of Navigation Bar -->
+        <hr>
+        <div class="searchbox-advanced">
+            <form action="https://google.com/search">
+
+                <label>all these words: </label> 
+                <input type="text" name="as_q">
+
+                <br> <label>this exact word or phrase: </label> 
+                <input type="text" name="as_epq">
+                
+                <br> <label>any of these words: </label> 
+                <input type="text" name="as_oq">
+
+                <br> <label>none of these words: </label> 
+                <input type="text" nam="as_eq">
+
+                <!-- as_nlo=10&as_nhi=50 -->
+                <br> <label>numbers ranging from: </label> 
+                <input type="number" name="as_nlo">
+                <label> to </label>
+                <input type="number" name="as_nhi">
+                <br> <button class="form-button" type="submit">Advanced Search</button>
+
+            </form>
+        </div>
+        <h6 id="copyright">&copy Kaji Quebral</h6>
+    </body>
+</html>

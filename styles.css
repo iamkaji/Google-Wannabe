@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+#copyright, .searchbox-advanced form label, .searchbox form label, .searchbox-advanced form input, .searchbox form input, .navgbar-advsearch a, .navgbar a, .navgbar-advsearch #head-text, .navgbar #head-text {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navgbar-advsearch #head-text, .navgbar #head-text {
+  font-size: xx-large;
+}
+
+.navgbar-advsearch #header-links, .navgbar #header-links {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: column;
+}
+
+.navgbar-advsearch, .navgbar {
+  margin-left: 1.9%;
+  margin-right: 1.9%;
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navgbar-advsearch a, .navgbar a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+}
+.navgbar-advsearch a:hover, .navgbar a:hover {
+  text-decoration: underline;
+}
+.navgbar-advsearch {
+  justify-content: space-between;
+}
+.navgbar-advsearch #header-links {
+  margin-left: 5%;
+  margin-right: 8%;
+}
+.navgbar-advsearch #head-text {
+  margin-left: 8%;
+}
+
+.searchbox-advanced, .searchbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  width: 80%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.searchbox-advanced form, .searchbox form {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: inline-block;
+  min-width: 100%;
+}
+.searchbox-advanced form .form-text, .searchbox form .form-text {
+  height: 30%;
+  width: 60%;
+  font-size: 100%;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.searchbox-advanced form .form-button, .searchbox form .form-button {
+  padding: 2%;
+  margin-bottom: 3%;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+  border: 1px solid gray;
+  transition-duration: 0.15s;
+  cursor: pointer;
+}
+.searchbox-advanced form .form-button:hover, .searchbox form .form-button:hover {
+  background-color: #dadada;
+  color: black;
+}
+.searchbox-advanced form input, .searchbox form input {
+  margin: 2%;
+}
+.searchbox-advanced {
+  text-align: left;
+}
+
+hr {
+  color: black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#copyright {
+  margin-top: 5%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
